@@ -1,0 +1,104 @@
+#root {
+
+}
+
+.app {
+  background-color: #003459;
+  border-radius: 5px;
+  margin: 10%;
+  transform: rotate(-1.5deg);
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.title--items {
+  margin: 0rem;
+  padding: 0rem;
+  line-height: 2.5rem;
+
+}
+
+.title--name {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 0.2%;
+}
+
+.title--job {
+  color: #007ea7;
+  font-size: 1.5rem;
+}
+
+
+.title--website {
+  color: #ffffff;
+  font-size: 1rem;
+  font-style: none;
+  text-decoration: none;
+}
+
+
+.title--website:hover {
+  opacity: 0.7;
+}
+
+.about, .interests {
+  margin: 4%;
+}
+.about--title, .interests--title {
+  text-align: left;
+  color: #007ea7;
+}
+
+.about--text, .interests--text {
+  text-align: justify;
+  text-justify: inter-word;
+  opacity: 0.7;
+}
+
+.buttons {
+  display: flex;
+  float: row;
+  justify-content: space-evenly;
+}
+
+.buttons--item {
+  background-color: #00a8e8;
+  padding: 1% 2%;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons--item:hover {
+  opacity: 0.7;
+}
+
+.icons {
+  display: flex;
+  float: row;
+  justify-content: space-evenly;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.icons--item {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.icons--item:hover {
+  opacity: 0.7;
+}
